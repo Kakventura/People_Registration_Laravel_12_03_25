@@ -1,0 +1,108 @@
+h2 {
+    font-size: 40px;
+    color: white;
+    font-family: "Boldonse", system-ui, sans-serif; /* Aplica a fonte Boldonse */
+    padding-bottom: 20px;
+}
+
+label {
+    color: white;
+    font-family: "Boldonse", system-ui, sans-serif; /* Aplica a fonte Boldonse */
+    padding-bottom: 5x;
+}
+
+a {
+    font-size: large;
+    font-family: "Overpass", sans-serif;
+}
+
+body{
+    background-color:rgb(73, 73, 73);
+}
+.btn.btn-outline-warning, .btn.btn-outline-sucess{
+  font-family: "Boldonse", system-ui, sans-serif; /* Aplica a fonte Boldonse */
+}
+.btn.btn-outline-warning:hover, .btn.btn-outline-warning:focus {
+    color: white; 
+    font-family: "Boldonse", system-ui, sans-serif; /* Aplica a fonte Boldonse */
+}
+
+.form-group input,
+.form-group textarea {
+  background-color: #646464; 
+  color: #fff; 
+  border: 1px solid #949494; 
+  padding: 10px; 
+  border-radius: 5px; 
+}
+
+.form-group select {
+  background-color: #646464; 
+  color: #fff;
+  border: 1px solid #949494;
+  
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus{
+  background-color: #424242; 
+  color: #fff; 
+  border: 1px solid #fff; 
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: #fff;
+}
+ 
+    /* Personalização do título */
+    .swal2-title {
+        font-family: "Boldonse", system-ui, sans-serif !important;  /* Usando a fonte Boldonse */
+        font-size: 24px !important;  /* Tamanho do título */
+        color: #333;  /* Cor do título */
+    }
+
+    /* Personalização do texto do alerta */
+    .swal2-content {
+        font-family: "Boldonse", system-ui, sans-serif !important;  /* Usando a fonte Boldonse */
+        font-size: 18px !important;  /* Tamanho da fonte do conteúdo */
+        color: #fff !important;  /* Cor do texto */
+    }
+
+    /* Estilo de fundo do SweetAlert */
+    .swal2-popup {
+        background-color: #f8f9fa !important;  /* Cor de fundo clara */
+        border-radius: 15px !important;  /* Bordas arredondadas */
+        padding: 30px !important;  /* Espaçamento interno */
+    }
+
+    /* Personalização do botão de confirmação */
+    .swal2-confirm {
+        background-color: #28a745 !important;  /* Cor verde */
+        border-color: #28a745 !important;  /* Cor da borda */
+        color: #fff !important;  /* Cor do texto */
+        font-size: 16px !important;  /* Tamanho da fonte do botão */
+        font-family: "Boldonse", system-ui, sans-serif !important;  /* Usando a fonte Boldonse */
+    }
+
+    /* Personalização do botão de cancelamento */
+    .swal2-cancel {
+        background-color: #d33 !important;  /* Cor do botão de cancelar */
+        border-color: #d33 !important;  /* Cor da borda do botão */
+        color: #fff !important;  /* Cor do texto */
+        font-size: 16px !important;  /* Tamanho da fonte do botão */
+        font-family: "Boldonse", system-ui, sans-serif !important;  /* Usando a fonte Boldonse */
+    }
+
+    /* Ajustando o espaço entre os botões */
+    .swal2-actions {
+        padding: 10px 0 !important;
+    }
+
+
+
+
+  
+  
+
