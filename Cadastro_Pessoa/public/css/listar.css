@@ -1,0 +1,91 @@
+/* Tornar as linhas da tabela clicáveis, com animação e cor de fundo ao passar o mouse */
+.clickable-row {
+    cursor: pointer; /* Mostra um cursor de mão */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Suaviza a mudança de cor e adiciona animação de escala */
+}
+
+/* Altera a cor de fundo e adiciona o efeito de "zoar" ao passar o mouse */
+.clickable-row:hover {
+    background-color: rgba(72, 190, 255, 0.2); /* Altera a cor de fundo ao passar o mouse */
+    transform: scale(1.05); /* Efeito de aumento ao passar o mouse */
+}
+
+/* Adiciona o efeito de clique, ligeiramente reduzindo o tamanho */
+.clickable-row:active {
+    transform: scale(0.98); /* Efeito de diminuição ao clicar */
+}
+
+body {
+    background-color: rgb(73, 73, 73);
+    font-family: "Overpass", sans-serif;
+}
+
+h2 {
+    font-size: 40px;
+    color: white;
+    font-family: "Boldonse", system-ui, sans-serif; /* Aplica a fonte Boldonse */
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+label {
+    color: white;
+    font-family: "Boldonse", system-ui, sans-serif; /* Aplica a fonte Boldonse */
+    padding-bottom: 5px;
+}
+
+a {
+    font-size: large;
+    font-family: "Overpass", sans-serif;
+}
+
+.table {
+    background-color: #646464;
+    color: white;
+    border-radius: 10px;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #4a4a4a;
+}
+
+/* Altera o fundo das fileiras */
+.table th,
+.table td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Fundo da primeira linha (cabeçalho) */
+.table th {
+    background-color: #333;
+    color: #fff;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #424242; /* Fundo cinza quando passa o mouse */
+}
+
+/* Adiciona um fundo cinza mais claro às fileiras da tabela */
+.table-striped tbody tr:nth-of-type(odd):not(.clickable-row),
+.table-striped tbody tr:nth-of-type(even):not(.clickable-row) {
+    background-color: #565656;
+}
+
+.table-responsive {
+    margin-top: 30px;
+}
+
+.navbar {
+    margin-bottom: 30px;
+}
+
+.navbar-nav .nav-link {
+    font-size: large;
+    font-family: "Overpass", sans-serif;
+    color: #fff;
+}
+
+.navbar-nav .nav-link.active {
+    color: #ffc107;
+}

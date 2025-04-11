@@ -8,7 +8,7 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Boldonse&family=Gravitas+One&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/cadastrar.css') }}">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
@@ -30,10 +30,10 @@
                 <div class="collapse navbar-collapse " id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Tela de Cadastro</a>
+                            <a class="nav-link active" href="/">Tela de Cadastro</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="consultar.php?acao=consultar">Consultar</a>
+                            <a class="nav-link" href="/listar-pessoas">Consultar</a>
                         </li>
                     </ul>
                 </div>

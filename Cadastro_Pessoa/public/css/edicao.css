@@ -1,0 +1,132 @@
+body {
+    background-color: rgb(73, 73, 73);
+    font-family: "Overpass", sans-serif;
+}
+
+h1.titulo {
+    font-size: 30px;
+    color: white;
+    font-family: "Boldonse", system-ui, sans-serif; /* Aplica a fonte Boldonse */
+    padding-bottom: 20px;
+    text-align: center; /* Centraliza o título */
+}
+
+label {
+    color: white;
+    font-family: "Boldonse", system-ui, sans-serif; /* Aplica a fonte Boldonse */
+    padding-bottom: 5px;
+}
+
+form {
+    background-color: #646464;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 50%; /* Reduz o tamanho do formulário */
+    margin: 0 auto; /* Centraliza o formulário */
+}
+
+.form-control,
+.form-select,
+textarea {
+    background-color: #4a4a4a;
+    color: white;
+    border: 1px solid #333;
+    border-radius: 5px;
+    font-size: 12px; /* Diminui o tamanho da fonte */
+    padding: 6px 10px; /* Diminui o padding para deixar os inputs menores */
+    margin-bottom: 8px; /* Reduz o espaçamento entre os campos */
+    width: 100%; /* Garante que os inputs ocupem 100% da largura do formulário */
+}
+
+.form-control:focus,
+.form-select:focus,
+textarea:focus {
+    background-color: #5a5a5a;
+    border-color: #666;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px; /* Diminui o espaço entre o formulário e os botões */
+}
+
+.btn {
+    font-family: "Boldonse", system-ui, sans-serif; /* Aplica a fonte Boldonse */
+    font-size: 14px; /* Diminui o tamanho da fonte */
+    padding: 6px 12px; /* Ajusta o tamanho do botão */
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    border-color: #c82333;
+}
+
+.navbar {
+    margin-bottom: 30px;
+}
+
+.navbar-nav .nav-link {
+    font-size: large;
+    font-family: "Overpass", sans-serif;
+    color: #fff;
+}
+
+.navbar-nav .nav-link.active {
+    color: #ffc107;
+}
+
+.swal2-title {
+    font-family: "Boldonse", system-ui, sans-serif !important;
+    font-size: 24px !important;
+    color: #333;
+}
+
+.swal2-content {
+    font-family: "Boldonse", system-ui, sans-serif !important;
+    font-size: 18px !important;
+    color: #fff !important;
+}
+
+.swal2-popup {
+    background-color: #f8f9fa !important;
+    border-radius: 15px !important;
+    padding: 30px !important;
+}
+
+.swal2-confirm {
+    background-color: #28a745 !important;
+    border-color: #28a745 !important;
+    color: #fff !important;
+    font-size: 16px !important;
+    font-family: "Boldonse", system-ui, sans-serif !important;
+}
+
+.swal2-cancel {
+    background-color: #d33 !important;
+    border-color: #d33 !important;
+    color: #fff !important;
+    font-size: 16px !important;
+    font-family: "Boldonse", system-ui, sans-serif !important;
+}
+
+.swal2-actions {
+    padding: 10px 0 !important;
+}
